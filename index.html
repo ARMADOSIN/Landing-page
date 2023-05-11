@@ -8,12 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
     <link rel="stylesheet" type="text/css" href="./fonts/OpenSans-VariableFont_wdth,wght.ttf">
+    <script async src="./js/index.js"></script>
 </head>
 
 <body class="page">
-    <div class="test">
-
-    </div>
+    
     <div class="page__header page__grey">
         <header class="header">
             <nav class="header__navigation">
@@ -31,6 +30,23 @@
                         <a class="menu__link" href="#contact">Contact</a>
                     </li>
                 </ul>
+                <div class="popup-menu">
+                    <span class="popup-menu__button"></span>
+                    <ul class="popup-menu__list hide-popup">
+                        <li class="popup-menu__item">
+                            <a class="popup-menu__link" href="#home">Home</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a class="popup-menu__link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a class="popup-menu__link" href="#about">About us</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a class="popup-menu__link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
     </div>
@@ -50,9 +66,11 @@
                         Contact Us
                     </a>
                 </div>
-                <a class="intro__link">
-                    <img class="intro__img" src="./images/Vedio.png" alt="video">
-                </a>
+                <iframe class="intro__img" src="https://www.youtube-nocookie.com/embed/ZnWfmkMXbyY?autoplay=1&mute=1"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
             </section>
         </div>
         <section class="section services">
@@ -153,7 +171,7 @@
             </div>
         </section>
         <div class="team__members">
-            <img class="team__selected_photo" src="./images/team.png" alt="фото сотрудника">
+            <img class="team__selected_photo" src="./images/director.jpg" alt="фото сотрудника">
             <div class="team__main-content">
                 <div class="team__selected-info">
                     <span class="team__selected-name">mark waugh</span>
@@ -168,20 +186,20 @@
                 </div>
                 <section class="members">
                     <div class="member">
-                        <h3 class="member__name">sokina jue</h3>
-                        <img class="member__photo" src="./images/team.png" alt="фото сотрудника">
+                        <h3 class="member__name">david graham</h3>
+                        <img class="member__photo" src="./images/human_1.jpg" alt="фото сотрудника">
                     </div>
                     <div class="member">
-                        <h3 class="member__name">sokina jue</h3>
-                        <img class="member__photo" src="./images/team.png" alt="фото сотрудника">
+                        <h3 class="member__name">amy page</h3>
+                        <img class="member__photo" src="./images/human_2.png" alt="фото сотрудника">
                     </div>
                     <div class="member">
-                        <h3 class="member__name">sokina jue</h3>
-                        <img class="member__photo" src="./images/team.png" alt="фото сотрудника">
+                        <h3 class="member__name">megan smith</h3>
+                        <img class="member__photo" src="./images/human_3.png" alt="фото сотрудника">
                     </div>
                     <div class="member">
-                        <h3 class="member__name">sokina jue</h3>
-                        <img class="member__photo" src="./images/team.png" alt="фото сотрудника">
+                        <h3 class="member__name">lisa dennis</h3>
+                        <img class="member__photo" src="./images/human_4.png" alt="фото сотрудника">
                     </div>
                 </section>
             </div>
