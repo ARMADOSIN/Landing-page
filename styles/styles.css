@@ -763,12 +763,15 @@
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 600px) {
     .intro__heading {
         font-size: 30px;
         line-height: 42px;
     }
+}
 
+@media (max-width: 560px) {
+    
     .intro {
         padding-top: 32px;
     }
@@ -781,15 +784,11 @@
 /* popup-menu */
 
 .popup-menu__button {
-    z-index: 1;
+    cursor: pointer;
     display: none;
-    padding: 0;
     min-width: 50px;
     height: 50px;
-    color: #FFFFFF;
     background-image: url('../images/menu.svg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 @media screen and (max-width: 640px) {
