@@ -796,7 +796,7 @@
     background-image: url('../images/menu.svg');
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 800px) {
     .popup-menu__button {
         display: block;
     }
@@ -853,7 +853,7 @@
 }
 
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 801px) {
     .popup-menu__list {
         visibility: hidden;
     }
